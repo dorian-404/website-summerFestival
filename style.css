@@ -219,20 +219,20 @@ header {
   background-color: var(--primary-color);
 }
 
-.destination__grid {
+.artist__grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
 }
 
-.destination__card {
+.artist__card {
   overflow: hidden;
   position: relative;
   isolation: isolate;
   cursor: pointer;
 }
 
-.destination__card img {
+.artist__card img {
   border-radius: 1rem;
 }
 
@@ -252,7 +252,7 @@ header {
   transition: 0.3s;
 }
 
-.destination__card:hover .destination__details {
+.artist__card:hover .destination__details {
   bottom: 1rem;
 }
 
