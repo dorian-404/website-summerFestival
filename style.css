@@ -415,6 +415,8 @@ form {
   font-size: 1rem;
 }
 
+/* footer */
+
 .footer {
   background-color: var(--text-dark);
 }
@@ -466,6 +468,9 @@ form {
   color: var(--secondary-color);
   border-top: 1px solid var(--text-light);
 }
+
+
+/* Responsive  */
 
 @media (width < 1200px) {
   .header__image img:nth-child(1) {
