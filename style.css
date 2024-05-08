@@ -236,7 +236,7 @@ header {
   border-radius: 1rem;
 }
 
-.destination__details {
+.artist__details {
   position: absolute;
   width: calc(100% - 2rem);
   padding: 1rem;
@@ -252,25 +252,25 @@ header {
   transition: 0.3s;
 }
 
-.artist__card:hover .destination__details {
+.artist__card:hover .artist__details {
   bottom: 1rem;
 }
 
-.destination__title {
+.artist__title {
   font-size: 0.9rem;
   margin-bottom: 0.5rem;
 }
 
-.destination__subtitle {
+.artist__subtitle {
   font-size: 1rem;
   font-weight: 600;
 }
 
-.trip {
+.abouts {
   background-color: var(--secondary-color);
 }
 
-.trip__container :is(.section__title, .section__subtitle, .view__all) {
+.about__container :is(.section__title, .section__subtitle, .view__all) {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
